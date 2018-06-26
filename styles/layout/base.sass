@@ -1,3 +1,119 @@
-h1
-    text-align: center
-    padding: 50px
+body
+  .content-container
+    max-width: 100%
+    width: 100%
+    margin: 0 auto
+    background: $travel-color-white
+    display: flex
+    header
+      position: fixed
+      max-width: 100%
+      width: 100%
+      z-index: 1
+      height: 50px
+      nav
+        width: 100%
+        height: 100%
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        padding-left: 15px
+        padding-right: 15px
+        margin-top: 20px
+        font-size: 1rem
+        font-family: $font-sans
+        #navRight
+          display: flex
+          flex-direction: row
+          justify-content: space-between
+          font-size: 1rem
+          h3
+            margin: 0 10px
+    main
+      padding-top: 50px
+
+      section#landing-page
+        .main-story
+          .post-container-style1
+            .img-container
+              position: relative
+              .img-overlay-title
+                font-family: $font-serif
+                position: absolute
+                top: 20px
+                left: 27%
+                h1, h2, h4
+                  font-weight: bold
+                  margin: 0 auto
+                .author
+                  font-size: 14px
+
+                .more-link
+                  font-family: $font-sans
+                  text-decoration: none
+                  background-image: linear-gradient(to right, $travel-color-peach, $travel-color-peach)
+                  background-position: bottom left
+                  background-repeat: no-repeat
+                  background-size: 33% 2px
+                  transition: background-size .5s ease
+                  &:hover
+                    background-size: 43% 2px
+              img
+                display: block
+                max-width: 100%
+                width: 50%
+                margin: 50px auto
+        .flex-container
+          display: flex
+          flex-direction: row
+
+          .post-container-style2
+            flex: 2 0 0
+            .img-container
+              position: relative
+              .img-overlay-title
+                font-family: $font-serif
+                position: absolute
+                top: 20px
+                left: 27%
+                h1, h2, h4
+                  font-weight: bold
+                  margin: 0 auto
+                .author
+                  font-size: 14px
+
+                .more-link
+                  font-family: $font-sans
+                  text-decoration: none
+                  background-image: linear-gradient(to right, $travel-color-peach, $travel-color-peach)
+                  background-position: bottom left
+                  background-repeat: no-repeat
+                  background-size: 33% 2px
+                  transition: background-size .5s ease
+                  &:hover
+                    background-size: 43% 2px
+              img
+                display: block
+                max-width: 50%
+                //width: 50%
+                margin: 20px auto
+          .post-container-sidebar
+            flex: 1 0 0
+            .img-container
+              position: relative
+              .img-overlay-title
+                font-family: $font-serif
+                position: absolute
+                top: 20px
+                left: 27%
+
+              img
+                display: block
+                max-width: 100%
+                min-width: auto
+                margin: 20px auto
+
+
+  footer
+    height: 100px
+    background: $travel-color-peach

@@ -1,0 +1,35 @@
+.post-container-style2
+    flex: 2 0 0
+    .img-container
+        position: relative
+        .img-overlay-title
+            font-family: $font-serif
+            position: absolute
+            top: 20px
+            left: 22%
+            .title-blurb,
+            .author,
+            .more-link
+                margin: 0 auto
+            .title-blurb
+                font-size: 1.5rem
+                font-weight: bold
+            .author
+                font-size: .75rem
+                font-weight: thin
+            .more-link
+                font-size: 1.25rem
+                font-family: $font-sans
+                text-decoration: none
+                background-image: linear-gradient(to right, $travel-color-peach, $travel-color-peach)
+                background-position: bottom left
+                background-repeat: no-repeat
+                background-size: 33% 2px
+                transition: background-size .5s ease
+                &:hover
+                    background-size: 43% 2px
+        img
+            display: block
+            max-width: 100%
+            width: 66%
+            margin: 20px auto

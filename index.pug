@@ -16,61 +16,57 @@ html(lang="en")
       header
         nav
           #navLeft
-            h3#site-title travel website
-          #navRight
-            h3 home
-            h3 trips
-            h3 guides
-            h3 reviews
-            h3 about
-          
-        
+            #site-title travel website
+          ul#navRight
+            li home
+            li trips
+            li guides
+            li reviews
+            li about
       main
         section#landing-page
           .main-story
             .post-container-style1
               .img-container
                 .img-overlay-title
-                  h1 This is text that you can read
-                  h2 here is some other
-                  h4.author by <span id="author-name">So Andso</span>
-                  h4.more-link read more
+                  .title-blurb Island Sandy Beach Vacation 
+                  .title-sub-blurb Big Pretty Bora Bora
+                  .author by <span id="author-name">So Andso</span>
+                  .more-link read more
                 img(src="img/beach.jpg", alt="beach")     
           .flex-container
             .column#leftPosts
               .post-container-style2
                 .img-container
                   .img-overlay-title
-                    h1 This is text that you can read
-                    h2 here is some other
-                    h4.author by <span id="author-name">So Andso</span>
-                    h4.more-link read more
+                    .title-blurb This is text that you can read
+                    .title-blurb here is some other
+                    .author by <span id="author-name">So Andso</span>
+                    .more-link read more
                   img(src="img/beach.jpg", alt="beach")
               .post-container-style2
                 .img-container
                   .img-overlay-title
-                    h1 This is text that you can read
-                    h2 here is some other
-                    h4.author by <span id="author-name">So Andso</span>
-                    h4.more-link read more
+                    .title-blurb This is text that you can read
+                    .title-blurb here is some other
+                    .author by <span id="author-name">So Andso</span>
+                    .more-link read more
                   img(src="img/beach.jpg", alt="beach")   
-            .column#sidebar
-              .post-container-sidebar
+            .column#rightPosts
+              .post-container-style3
                 .img-container
                   .img-overlay-title
-                    h1 This is sidebar
-                    h2 text text
-                    h4.author by <span id="author-name">So Andso</span>
-                    h4.more-link read more
+                    span.title-blurb This is sidebar text
+                    .author by <span id="author-name">So Andso</span>
+                    span.more-link read more
                   img(src="img/beach.jpg", alt="beach")             
 
-          
-          
 
-      footer
+    footer
     
     
     
+        
     script(src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous")
     <script>window.jQuery || document.write('<script src="js/vendor/jquery/dist/jquery/jquery.min.js"><\/script>')</script>
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/{{BOOTSTRAP_VERSION}}/js/bootstrap.min.js", integrity="{{BOOTSTRAP_SRI_HASH}}", crossorigin="anonymous")
@@ -78,4 +74,4 @@ html(lang="en")
     div(id="bootstrapCssTest" class="hidden")
     <script>$(function(){if ($('#bootstrapCssTest').is(':visible')){$('head').prepend('<link rel="stylesheet" href="/js/vendor/bootstrap/dist/css/bootstrap.min.css">');}});</script>
     script(src="js/bundle.min.js")
-    
+    

@@ -1,77 +1,98 @@
 <!DOCTYPE html>
 html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-    title
-    meta(name="description" content="")
-    link(href="https://fonts.googleapis.com/css?family=Ovo|Quattrocento+Sans" rel="stylesheet")
-    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/{{BOOTSTRAP_VERSION}}/css/bootstrap.min.css", rel="stylesheet", integrity="{{BOOTSTRAP_SRI_HASH}}", crossorigin="anonymous")
-    link(rel="stylesheet" href="css/main.min.css")
-    //[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]
-  
-  body
-    .content-container
-      header
-        nav
-          #navLeft
-            #site-title travel website
-          ul#navRight
-            li home
-            li trips
-            li guides
-            li reviews
-            li about
-      main
-        section#landing-page
-          .main-story
-            .post-container-style1
-              .img-container
-                .img-overlay-title
-                  .title-blurb Island Sandy Beach Vacation 
-                  .title-sub-blurb Big Pretty Bora Bora
-                  .author by <span id="author-name">So Andso</span>
-                  .more-link read more
-                img(src="img/beach.jpg", alt="beach")     
-          .flex-container
-            .column#leftPosts
-              .post-container-style2
-                .img-container
-                  .img-overlay-title
-                    .title-blurb This is text that you can read
-                    .title-blurb here is some other
-                    .author by <span id="author-name">So Andso</span>
-                    .more-link read more
-                  img(src="img/beach.jpg", alt="beach")
-              .post-container-style2
-                .img-container
-                  .img-overlay-title
-                    .title-blurb This is text that you can read
-                    .title-blurb here is some other
-                    .author by <span id="author-name">So Andso</span>
-                    .more-link read more
-                  img(src="img/beach.jpg", alt="beach")   
-            .column#rightPosts
-              .post-container-style3
-                .img-container
-                  .img-overlay-title
-                    span.title-blurb This is sidebar text
-                    .author by <span id="author-name">So Andso</span>
-                    span.more-link read more
-                  img(src="img/beach.jpg", alt="beach")             
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        title
+        meta(name="description" content="")
+        link(href="https://fonts.googleapis.com/css?family=Ovo|Quattrocento+Sans" rel="stylesheet")
+        link(href="https://maxcdn.bootstrapcdn.com/bootstrap/{{BOOTSTRAP_VERSION}}/css/bootstrap.min.css", rel="stylesheet", integrity="{{BOOTSTRAP_SRI_HASH}}", crossorigin="anonymous")
+        link(rel="stylesheet" href="css/main.min.css")
+        //[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]
+
+    body
+        .content-container
+            header
+                nav
+                    #navLeft
+                        #site-title travel website
+                    ul#navRight
+                        li home
+                        li trips
+                        li guides
+                        li reviews
+                        li about
+            main
+                section#landing-page
+                    .main-story
+                        .post-container-style1
+                            .img-container
+                                .img-overlay-title
+                                    .title-blurb Island Sandy Beach Vacation 
+                                    .title-sub-blurb Big Pretty Bora Bora
+                                    .author by <span id="author-name">So Andso</span>
+                                    .more-link read more
+                                img(src="img/beach.jpg", alt="beach")     
+                    .flex-container
+                        .column#leftPosts
+                            .post-container-style2
+                                .img-container
+                                    .img-overlay-title
+                                        .title-blurb This is text that you can read
+                                        .title-blurb here is some other
+                                        .author by <span id="author-name">So Andso</span>
+                                        .more-link read more
+                                    img(src="img/rome.jpg", alt="beach")
+                            .post-container-style2
+                                .img-container
+                                    .img-overlay-title
+                                        .title-blurb This is text that you can read
+                                        .title-blurb here is some other
+                                        .author by <span id="author-name">So Andso</span>
+                                        .more-link read more
+                                    img(src="img/mexico.jpg", alt="beach")   
+                        .column#rightPosts
+                            .post-container-style3
+                                .img-container
+                                    .img-overlay-title
+                                        .title-blurb This is sidebar text
+                                        .title-sub-blurb
+                                        .desc-overlay    
+                                            .desc Grassss... Taste bad! It probably has space aids. Oh good job Morty! You killed my best customer but you saved a mind reading fart! I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come.
+                                            .author by <span id="author-name">So Andso</span>
+                                            .more-link read more
+                                    img(src="img/japan.jpg", alt="beach") 
+                    .full-width
+                        .post-container-style4
+                            .img-container#avgColor 
+                                .img-overlay-title
+                                    .title-blurb Island Sandy Beach Vacation 
+                                    .title-sub-blurb Big Pretty Bora Bora
+                                    .desc It's a figure of speech, Morty! They're bureaucrats! I don't respect them. Just keep shooting, Morty! You have no idea what prison is like here!
+                                    .author by <span id="author-name">So Andso</span>
+                                    .more-link read more
+                                img(src="img/cinque.jpg", alt="beach", id="i") 
+                        br        
+                        .post-container-style5
+                            .img-container
+                                .img-overlay-title
+                                    .title-blurb Island Sandy Beach Vacation 
+                                    .title-sub-blurb Big Pretty Bora Bora
+                                    .desc It's a figure of speech, Morty! They're bureaucrats! I don't respect them. Just keep shooting, Morty! You have no idea what prison is like here!
+                                    .author by <span id="author-name">So Andso</span>
+                                    .more-link read more
+                        br                           
+
+        footer
 
 
-    footer
-    
-    
-    
-        
-    script(src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous")
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery/dist/jquery/jquery.min.js"><\/script>')</script>
-    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/{{BOOTSTRAP_VERSION}}/js/bootstrap.min.js", integrity="{{BOOTSTRAP_SRI_HASH}}", crossorigin="anonymous")
-    <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/js/vendor/bootstrap/dist/js/bootstrap.min.js"><\/script>')}</script>
-    div(id="bootstrapCssTest" class="hidden")
-    <script>$(function(){if ($('#bootstrapCssTest').is(':visible')){$('head').prepend('<link rel="stylesheet" href="/js/vendor/bootstrap/dist/css/bootstrap.min.css">');}});</script>
+
+
+        script(src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous")
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery/dist/jquery/jquery.min.js"><\/script>')</script>
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/{{BOOTSTRAP_VERSION}}/js/bootstrap.min.js", integrity="{{BOOTSTRAP_SRI_HASH}}", crossorigin="anonymous")
+        <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/js/vendor/bootstrap/dist/js/bootstrap.min.js"><\/script>')}</script>
+        div(id="bootstrapCssTest" class="hidden")
+        <script>$(function(){if ($('#bootstrapCssTest').is(':visible')){$('head').prepend('<link rel="stylesheet" href="/js/vendor/bootstrap/dist/css/bootstrap.min.css">');}});</script>
     script(src="js/bundle.min.js")
-    

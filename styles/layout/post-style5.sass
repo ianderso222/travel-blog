@@ -1,0 +1,55 @@
+.post-container-style5
+    .img-container
+        position: relative
+        background-image: url(../../img/ice.jpg)
+        background-size: cover
+        max-width: 96%
+        height: 100vh
+        margin: 0 auto
+        // &:hover > .img-overlay-title
+        //     transform: translate(0, 0)
+        //     transition: .3s
+        // &:hover > img
+        //     opacity: 0.9
+        //     transform: translate(200px, 0)
+        //     transition: .3s
+        .img-overlay-title
+            font-family: $font-serif
+            position: absolute
+            bottom: 20px
+            right: 80px
+            z-index: 2
+            width: 600px
+            background: $travel-color-white
+            padding: 20px 30px
+            border-radius: 3px
+            .title-blurb,
+            .title-sub-blurb,
+            .desc,
+            .author,
+            .more-link
+                margin: 0 auto
+            .title-blurb
+                font-size: 3rem
+                font-weight: bold
+            .title-sub-blurb
+                font-size: 2.25rem
+                font-weight: bold
+            .desc
+                font-size: 1.33rem
+                font-weight: thin
+                font-style: italic
+            .author
+                font-size: 1rem
+                font-weight: thin
+            .more-link
+                font-size: 1.25rem
+                font-family: $font-sans
+                text-decoration: none
+                background-image: linear-gradient(to right, $travel-color-peach, $travel-color-peach)
+                background-position: bottom left
+                background-repeat: no-repeat
+                background-size: 33% 2px
+                transition: background-size .5s ease
+                &:hover
+                    background-size: 43% 2px
